@@ -1,0 +1,10 @@
+{
+  "env": {
+    "browser": true
+  },
+  "settings": {},
+  "rules": {
+    "eqeqeq": "warn",
+    "import/no-cycle": "error"
+  }
+}

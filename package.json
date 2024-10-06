@@ -1,15 +1,19 @@
 {
   "name": "reroute",
   "version": "1.0.0",
-  "description": "",
+  "description": "A new way to write js apis",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+   "build": "tsc"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "deondreE",
+  "license": "MIT",
   "devDependencies": {
-    "typescript": "^5.6.2"
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.2",
+    "vitest": "^2.1.2"
+  },
+  "dependencies": {
+    "@types/node": "^22.7.4"
   }
 }
