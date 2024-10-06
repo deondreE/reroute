@@ -1,8 +1,9 @@
 {
-  "name": "reroute",
+  "name": "rover",
   "version": "1.0.0",
   "description": "A new way to write js apis",
-  "main": "index.js",
+  "main": "dist/router.js",
+  "types": "dist/index.d.ts",
   "scripts": {
    "build": "tsc"
   },
